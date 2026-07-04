@@ -16,7 +16,7 @@
 #include "SFML/Audio/Music.hpp"
 
 Game::Game()
-    : window_(sf::VideoMode( { 1200, 700 } ), "A* Pathfinding")
+    : window_(sf::VideoMode( { 1200, 700 } ), "Pathfinding")
     , view_(sf::FloatRect(sf::Vector2f(0, 0), sf::Vector2f(window_.getPosition().x, window_.getPosition().y)))
     , grid_(50, 50, 50)
 {
